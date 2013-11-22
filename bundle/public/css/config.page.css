@@ -1,0 +1,37 @@
+.navbar-static-top {
+	margin-bottom: 0px;
+}
+
+.key-name {
+	vertical-align: middle;
+	font-weight:bold;
+	line-height: 34px;
+}
+
+.profile-name{
+	vertical-align: middle;
+	font-weight:bold;
+	line-height: 30px;
+}
+
+.space {
+	min-height : 0.01em;
+	margin : 1em;
+}
+
+.notification{
+	z-index:1001;
+	padding-right: 1em;
+	margin : 0.1em;
+	margin-top:1em;
+}
+
+.centered{
+	margin-left:1em;
+	margin-top: 3px;
+}
+
+body .modal-large {
+  width: 70%; /* desired relative width */
+  left: 15%; /* (100%-width)/2 */
+}

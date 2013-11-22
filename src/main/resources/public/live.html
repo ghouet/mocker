@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+
+    <title>Mocker</title>
+
+    <link href="/static/css/bootstrap.css" rel="stylesheet">
+   
+    <script src="/static/js/html5shiv.js"></script>
+    <script src="/static/js/respond.min.js"></script>
+</head>
+
+<body>
+<a class="sr-only" href="#content">Skip to main content</a>
+<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="../" class="navbar-brand">Mocker</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+      <li class="active"><a href="live.html">Live</a></li>
+                    <li><a href="index.html">Mapping</a></li>
+        </ul>
+    </nav>
+  </div>
+</header>
+
+    
+    <div class="jumbotron" style='padding-top:5em;'>
+        <div class="container">
+            <h1>Live Routing</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h2 class="panel-title">Current Request</h2>
+          </div>
+          <div class="panel-body" id="current-request"></div>
+          <div class="panel-footer" id="reply-block">
+          <div class="container">
+            <h4>Reply</h4>
+            <div class='container'>
+            <form class='form-horizontal' role='form'>
+                <div class='form-group'>
+                    <label class='sr-only' for='reply-body'>Body</label>
+                    <textarea class='form-control' id="reply-body" rows='3' placeholder="Body"></textarea>
+                </div>
+                <div class='form-group'>
+
+                    <div class="btn-group">
+                      <button type='button' class='btn btn-primary doreply'>100</button>
+                      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a class='doreply' href="#">100</a></li>
+                        <li><a class='doreply' href="#">101</a></li>
+                        <li><a class='doreply' href="#">102</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="btn-group">
+                      <button type='button' class='btn btn-success doreply'>200</button>
+                      <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a class='doreply' href="#">200</a></li>
+                        <li><a class='doreply' href="#">201</a></li>
+                        <li><a class='doreply' href="#">202</a></li>
+                        <li><a class='doreply' href="#">203</a></li>
+                        <li><a class='doreply' href="#">204</a></li>
+                        <li><a class='doreply' href="#">205</a></li>
+                        <li><a class='doreply' href="#">206</a></li>
+                        <li><a class='doreply' href="#">207</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="btn-group">
+                      <button type='button' class='btn btn-info doreply'>300</button>
+                      <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a class='doreply' href="#">300</a></li>
+                        <li><a class='doreply' href="#">301</a></li>
+                        <li><a class='doreply' href="#">302</a></li>
+                        <li><a class='doreply' href="#">303</a></li>
+                        <li><a class='doreply' href="#">304</a></li>
+                        <li><a class='doreply' href="#">305</a></li>
+                        <li><a class='doreply' href="#">306</a></li>
+                        <li><a class='doreply' href="#">307</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="btn-group">
+                      <button type='button' class='btn btn-warning doreply'>400</button>
+                      <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a class='doreply' href="#">400</a></li>
+                        <li><a class='doreply' href="#">401</a></li>
+                        <li><a class='doreply' href="#">402</a></li>
+                        <li><a class='doreply' href="#">403</a></li>
+                        <li><a class='doreply' href="#">404</a></li>
+                        <li><a class='doreply' href="#">405</a></li>
+                        <li><a class='doreply' href="#">406</a></li>
+                        <li><a class='doreply' href="#">407</a></li>
+                        <li><a class='doreply' href="#">408</a></li>
+                        <li><a class='doreply' href="#">409</a></li>
+                        <li><a class='doreply' href="#">410</a></li>
+                        <li><a class='doreply' href="#">411</a></li>
+                        <li><a class='doreply' href="#">412</a></li>
+                        <li><a class='doreply' href="#">415</a></li>
+                        <li><a class='doreply' href="#">416</a></li>
+                        <li><a class='doreply' href="#">417</a></li>
+                        <li><a class='doreply' href="#">422</a></li>
+                        <li><a class='doreply' href="#">423</a></li>
+                        <li><a class='doreply' href="#">424</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="btn-group">
+                      <button type='button' class='btn btn-danger doreply'>500</button>
+                      <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a class='doreply' href="#">500</a></li>
+                        <li><a class='doreply' href="#">501</a></li>
+                        <li><a class='doreply' href="#">502</a></li>
+                        <li><a class='doreply' href="#">503</a></li>
+                        <li><a class='doreply' href="#">504</a></li>
+                      </ul>
+                    </div>
+                    </div>
+
+              </div>
+            </form>
+            <div class='panel panel-info'>
+                <div class="panel-heading"><h2 class="panel-title">Previous Response</h2></div>
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th class='col-sm-1'></th>
+                        <th class='col-sm-2'>Code</th>
+                        <th>Body</th>
+                      </tr>
+                    </thead>
+                    <tbody id="history">
+                    </tbody>
+                </table>  
+            </div>
+            </div>
+          </div>
+          </div>
+
+          <div class="panel panel-default">
+          <div class="panel-heading">
+            <h2 class="panel-title"><span class="badge" id='pending-count'>0</span> Pending Requests</h2> 
+          </div>
+          <div class="panel-body"></div>             
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th class='col-sm-1'>Method</th>
+                        <th>Path</th>
+                        <th>Body</th>
+                      </tr>
+                    </thead>
+                    <tbody id="request-list">
+                    </tbody>
+                </table>   
+        </div>
+    </div>
+
+<script src="/static/js/jquery.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/common.js"></script>
+<script src="/static/js/live.js"></script>
+</body>
+</html>

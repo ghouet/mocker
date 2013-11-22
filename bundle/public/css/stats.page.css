@@ -1,0 +1,16 @@
+.space {
+    min-height : 0.01em;
+    margin : 1em;
+}
+
+#samples-host{
+	padding-right 1em;
+}
+
+.btn{
+	margin-left:1em;
+}
+
+.padd{
+	margin-left:1em;
+}
